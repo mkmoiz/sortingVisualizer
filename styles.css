@@ -1,0 +1,22 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+  } */
+/* canvas {
+    display: block;
+  } */
+
+
+.max {
+    /* display: inline; */
+    position: absolute;
+    right: 290px;
+    bottom: 80px;
+}
+
+.min {
+    /* display: inline; */
+    position: absolute;
+    right: 180px;
+    bottom: 80px;
+}
