@@ -8,6 +8,7 @@ https://mkmoiz.github.io/sortingVisualizer/
 
 - HTML 
 - CSS
+-bootstrap.
 - Javascript (p5.js)
 
 
