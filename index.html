@@ -19,24 +19,37 @@
 <body>
   <main>
     <!-- it's a bootstrap navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Sorting Visualizer</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Sorting visualizer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     
+          <li class="nav-item">
           <button class="btn-outline-success" onClick="window.location.reload();">shuffle</button>
-          <a id="bubblesort" class="nav-item nav-link " href="#">bubblesort</a>
-          <a id="quicksort" class="nav-item nav-link" href="#">quicksort</a>
-          <a id="mergesort" class="nav-item nav-link" href="#">mergesort</a>
-          <a id="selectionsort" class="nav-item nav-link" href="#">selectionsort</a>
-          <a id="sourcecode" class="nav-item nav-link " href="https://github.com/mkmoiz/sortingVisualizer">source code</a>
+      </li>
+       <li class="nav-item">
+          <button id="bubblesort" class="nav-item nav-link " href="#">bubblesort</button>
+      </li>
+       <li class="nav-item">
+          <button id="quicksort" class="nav-item nav-link" href="#">quicksort</button>
+      </li>
+       <li class="nav-item">
+          <button id="mergesort" class="nav-item nav-link" href="#">mergesort</button>
+      </li>
+       <li class="nav-item">
+          <button id="selectionsort" class="nav-item nav-link" href="#">selectionsort</button>
+      </li>
+          <li class="nav-item">
+          <button id="sourcecode" class="nav-item nav-link " href="https://github.com/mkmoiz/sortingVisualizer">source code</button>
+      </li>
+    </ul>
 
-        </div>
-      </div>
+        
+      </div> 
     </nav>
   </main>
   <script src="sketch.js"></script>
